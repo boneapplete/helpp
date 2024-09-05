@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+    //classes and objects
+
+        //is null cause we used he default constructure
+    dog doggo = new dog();
+    System.out.println(doggo.name);
+
+ dog bengie = new dog(5, "bengie", "bengie.png" );
+
+ System.out.println(bengie.name);
+ System.out.println(bengie.age);
+
+ dog graci = new dog(7, "graci", "graci.png" );
+
+ System.out.println(graci.name);
+ System.out.println(graci.age);
+
+
+
+    }
+}
